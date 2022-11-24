@@ -69,7 +69,7 @@ public class Board extends JPanel implements ActionListener, KeyListener {
         
         drawBackground(g);
         gameover(g);
-        if((time*DELAY)%35000<1) {
+        if((time*DELAY)%35000<DELAY) {
         	message="";
         	regenerateballs();
         }
